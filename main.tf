@@ -254,7 +254,7 @@ resource "azurerm_monitor_diagnostic_setting" "avd-dag1" {
       enabled = true
     }
   }
-  
+
   enabled_log {
     category = "GraphicsData"
 
